@@ -1,0 +1,32 @@
+{
+  "name": "react-view-tree",
+  "version": "0.0.1",
+  "description": "React view data as a tree",
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babel-runtime": "^5.8.20",
+    "mocha": "^2.2.5",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc3"
+   },
+  "scripts": {
+    "build:lib": "babel --stage 0 src --out-dir lib",
+    "pretest": "babel --stage 0 test.js -o test.js && npm run build:lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saromanov/react-view-tree.git"
+  },
+  "keywords": [
+    "react",
+    "tree"
+  ],
+  "author": "Sergey Romanov <xxsmotur@gmail.com> (https://github.com/saromanov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saromanov/react-view-tree/issues"
+  },
+  "homepage": "https://github.com/saromanov/react-view-tree#readme"
+}
